@@ -1,0 +1,1369 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '--save-dev',
+1 verbose cli   'babel',
+1 verbose cli   'babel-eslint',
+1 verbose cli   'babel-loader',
+1 verbose cli   'eslint',
+1 verbose cli   'eslint-plugin-react',
+1 verbose cli   'react-hot-loader',
+1 verbose cli   'webpack',
+1 verbose cli   'webpack-dev-server' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json redux-todo@0.0.1 No README data
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'babel', null ]
+7 verbose cache add name=undefined spec="babel" args=["babel",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'babel',
+8 verbose parsed url   path: 'babel',
+8 verbose parsed url   href: 'babel' }
+9 verbose cache add [ 'babel-eslint', null ]
+10 verbose cache add name=undefined spec="babel-eslint" args=["babel-eslint",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'babel-eslint',
+11 verbose parsed url   path: 'babel-eslint',
+11 verbose parsed url   href: 'babel-eslint' }
+12 verbose cache add [ 'babel-loader', null ]
+13 verbose cache add name=undefined spec="babel-loader" args=["babel-loader",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'babel-loader',
+14 verbose parsed url   path: 'babel-loader',
+14 verbose parsed url   href: 'babel-loader' }
+15 verbose cache add [ 'eslint', null ]
+16 verbose cache add name=undefined spec="eslint" args=["eslint",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'eslint',
+17 verbose parsed url   path: 'eslint',
+17 verbose parsed url   href: 'eslint' }
+18 verbose cache add [ 'eslint-plugin-react', null ]
+19 verbose cache add name=undefined spec="eslint-plugin-react" args=["eslint-plugin-react",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'eslint-plugin-react',
+20 verbose parsed url   path: 'eslint-plugin-react',
+20 verbose parsed url   href: 'eslint-plugin-react' }
+21 verbose cache add [ 'react-hot-loader', null ]
+22 verbose cache add name=undefined spec="react-hot-loader" args=["react-hot-loader",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'react-hot-loader',
+23 verbose parsed url   path: 'react-hot-loader',
+23 verbose parsed url   href: 'react-hot-loader' }
+24 verbose cache add [ 'webpack', null ]
+25 verbose cache add name=undefined spec="webpack" args=["webpack",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'webpack',
+26 verbose parsed url   path: 'webpack',
+26 verbose parsed url   href: 'webpack' }
+27 verbose cache add [ 'webpack-dev-server', null ]
+28 verbose cache add name=undefined spec="webpack-dev-server" args=["webpack-dev-server",null]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'webpack-dev-server',
+29 verbose parsed url   path: 'webpack-dev-server',
+29 verbose parsed url   href: 'webpack-dev-server' }
+30 silly lockFile cad160f3-babel babel
+31 verbose lock babel /Users/ryanyogan/.npm/cad160f3-babel.lock
+32 silly lockFile 30bfc077-babel-eslint babel-eslint
+33 verbose lock babel-eslint /Users/ryanyogan/.npm/30bfc077-babel-eslint.lock
+34 silly lockFile d87d642d-babel-loader babel-loader
+35 verbose lock babel-loader /Users/ryanyogan/.npm/d87d642d-babel-loader.lock
+36 silly lockFile e0b0b266-eslint eslint
+37 verbose lock eslint /Users/ryanyogan/.npm/e0b0b266-eslint.lock
+38 silly lockFile b8bb3290-eslint-plugin-react eslint-plugin-react
+39 verbose lock eslint-plugin-react /Users/ryanyogan/.npm/b8bb3290-eslint-plugin-react.lock
+40 silly lockFile 2d8f975e-react-hot-loader react-hot-loader
+41 verbose lock react-hot-loader /Users/ryanyogan/.npm/2d8f975e-react-hot-loader.lock
+42 silly lockFile 057b6197-webpack webpack
+43 verbose lock webpack /Users/ryanyogan/.npm/057b6197-webpack.lock
+44 silly lockFile c567c02f-webpack-dev-server webpack-dev-server
+45 verbose lock webpack-dev-server /Users/ryanyogan/.npm/c567c02f-webpack-dev-server.lock
+46 silly lockFile cad160f3-babel babel
+47 silly lockFile cad160f3-babel babel
+48 silly lockFile e0b0b266-eslint eslint
+49 silly lockFile e0b0b266-eslint eslint
+50 silly lockFile 30bfc077-babel-eslint babel-eslint
+51 silly lockFile 30bfc077-babel-eslint babel-eslint
+52 silly lockFile b8bb3290-eslint-plugin-react eslint-plugin-react
+53 silly lockFile b8bb3290-eslint-plugin-react eslint-plugin-react
+54 silly lockFile d87d642d-babel-loader babel-loader
+55 silly lockFile d87d642d-babel-loader babel-loader
+56 verbose addNamed [ 'babel', '' ]
+57 verbose addNamed [ null, '*' ]
+58 silly lockFile 8d1f9cea-babel babel@
+59 verbose lock babel@ /Users/ryanyogan/.npm/8d1f9cea-babel.lock
+60 verbose addNamed [ 'eslint', '' ]
+61 verbose addNamed [ null, '*' ]
+62 silly lockFile 62e46387-eslint eslint@
+63 verbose lock eslint@ /Users/ryanyogan/.npm/62e46387-eslint.lock
+64 verbose addNamed [ 'babel-eslint', '' ]
+65 verbose addNamed [ null, '*' ]
+66 silly lockFile 4bec8ef6-babel-eslint babel-eslint@
+67 verbose lock babel-eslint@ /Users/ryanyogan/.npm/4bec8ef6-babel-eslint.lock
+68 verbose addNamed [ 'eslint-plugin-react', '' ]
+69 verbose addNamed [ null, '*' ]
+70 silly lockFile fdb168d3-eslint-plugin-react eslint-plugin-react@
+71 verbose lock eslint-plugin-react@ /Users/ryanyogan/.npm/fdb168d3-eslint-plugin-react.lock
+72 verbose addNamed [ 'babel-loader', '' ]
+73 verbose addNamed [ null, '*' ]
+74 silly lockFile 3cb9c35b-babel-loader babel-loader@
+75 verbose lock babel-loader@ /Users/ryanyogan/.npm/3cb9c35b-babel-loader.lock
+76 silly lockFile 2d8f975e-react-hot-loader react-hot-loader
+77 silly lockFile 2d8f975e-react-hot-loader react-hot-loader
+78 silly lockFile 057b6197-webpack webpack
+79 silly lockFile 057b6197-webpack webpack
+80 silly lockFile c567c02f-webpack-dev-server webpack-dev-server
+81 silly lockFile c567c02f-webpack-dev-server webpack-dev-server
+82 silly addNameRange { name: 'babel', range: '*', hasData: false }
+83 verbose addNamed [ 'react-hot-loader', '' ]
+84 verbose addNamed [ null, '*' ]
+85 silly lockFile d3cb2371-react-hot-loader react-hot-loader@
+86 verbose lock react-hot-loader@ /Users/ryanyogan/.npm/d3cb2371-react-hot-loader.lock
+87 silly addNameRange { name: 'eslint', range: '*', hasData: false }
+88 silly addNameRange { name: 'babel-eslint', range: '*', hasData: false }
+89 silly addNameRange { name: 'eslint-plugin-react', range: '*', hasData: false }
+90 silly addNameRange { name: 'babel-loader', range: '*', hasData: false }
+91 verbose addNamed [ 'webpack', '' ]
+92 verbose addNamed [ null, '*' ]
+93 silly lockFile 9c8dd08b-webpack webpack@
+94 verbose lock webpack@ /Users/ryanyogan/.npm/9c8dd08b-webpack.lock
+95 verbose addNamed [ 'webpack-dev-server', '' ]
+96 verbose addNamed [ null, '*' ]
+97 silly lockFile b579fb99-webpack-dev-server webpack-dev-server@
+98 verbose lock webpack-dev-server@ /Users/ryanyogan/.npm/b579fb99-webpack-dev-server.lock
+99 silly addNameRange { name: 'react-hot-loader', range: '*', hasData: false }
+100 silly addNameRange { name: 'webpack', range: '*', hasData: false }
+101 silly addNameRange { name: 'webpack-dev-server', range: '*', hasData: false }
+102 verbose request where is /babel-eslint
+103 verbose request registry https://registry.npmjs.org/
+104 verbose request id 42d0cfff03951d79
+105 verbose url raw /babel-eslint
+106 verbose url resolving [ 'https://registry.npmjs.org/', './babel-eslint' ]
+107 verbose url resolved https://registry.npmjs.org/babel-eslint
+108 verbose request where is https://registry.npmjs.org/babel-eslint
+109 info trying registry request attempt 1 at 11:40:59
+110 verbose etag "EQ5Z8F46AI0IU4QHM8EN882LA"
+111 http GET https://registry.npmjs.org/babel-eslint
+112 verbose request where is /eslint
+113 verbose request registry https://registry.npmjs.org/
+114 verbose url raw /eslint
+115 verbose url resolving [ 'https://registry.npmjs.org/', './eslint' ]
+116 verbose url resolved https://registry.npmjs.org/eslint
+117 verbose request where is https://registry.npmjs.org/eslint
+118 info trying registry request attempt 1 at 11:40:59
+119 verbose etag "BPTYKQHDBF6FRKZ61YOTHHE1S"
+120 http GET https://registry.npmjs.org/eslint
+121 verbose request where is /babel
+122 verbose request registry https://registry.npmjs.org/
+123 verbose url raw /babel
+124 verbose url resolving [ 'https://registry.npmjs.org/', './babel' ]
+125 verbose url resolved https://registry.npmjs.org/babel
+126 verbose request where is https://registry.npmjs.org/babel
+127 info trying registry request attempt 1 at 11:40:59
+128 verbose etag "24Q4JU3T7DOTZ2IXMG5UPOBK2"
+129 http GET https://registry.npmjs.org/babel
+130 verbose request where is /eslint-plugin-react
+131 verbose request registry https://registry.npmjs.org/
+132 verbose url raw /eslint-plugin-react
+133 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-plugin-react' ]
+134 verbose url resolved https://registry.npmjs.org/eslint-plugin-react
+135 verbose request where is https://registry.npmjs.org/eslint-plugin-react
+136 info trying registry request attempt 1 at 11:40:59
+137 verbose etag "6MDWV9GZUNN16J1PDX87EQSRP"
+138 http GET https://registry.npmjs.org/eslint-plugin-react
+139 verbose request where is /babel-loader
+140 verbose request registry https://registry.npmjs.org/
+141 verbose url raw /babel-loader
+142 verbose url resolving [ 'https://registry.npmjs.org/', './babel-loader' ]
+143 verbose url resolved https://registry.npmjs.org/babel-loader
+144 verbose request where is https://registry.npmjs.org/babel-loader
+145 info trying registry request attempt 1 at 11:40:59
+146 verbose etag "GMB4691Y50HSI7ON27IM7BF2"
+147 http GET https://registry.npmjs.org/babel-loader
+148 verbose request where is /react-hot-loader
+149 verbose request registry https://registry.npmjs.org/
+150 verbose url raw /react-hot-loader
+151 verbose url resolving [ 'https://registry.npmjs.org/', './react-hot-loader' ]
+152 verbose url resolved https://registry.npmjs.org/react-hot-loader
+153 verbose request where is https://registry.npmjs.org/react-hot-loader
+154 info trying registry request attempt 1 at 11:40:59
+155 verbose etag "33VC4LFNU2HEF58TI7HWC2TH5"
+156 http GET https://registry.npmjs.org/react-hot-loader
+157 verbose request where is /webpack-dev-server
+158 verbose request registry https://registry.npmjs.org/
+159 verbose url raw /webpack-dev-server
+160 verbose url resolving [ 'https://registry.npmjs.org/', './webpack-dev-server' ]
+161 verbose url resolved https://registry.npmjs.org/webpack-dev-server
+162 verbose request where is https://registry.npmjs.org/webpack-dev-server
+163 info trying registry request attempt 1 at 11:40:59
+164 verbose etag "6P7JVDZUG0TUYTA4N93EZWD0Y"
+165 http GET https://registry.npmjs.org/webpack-dev-server
+166 verbose request where is /webpack
+167 verbose request registry https://registry.npmjs.org/
+168 verbose url raw /webpack
+169 verbose url resolving [ 'https://registry.npmjs.org/', './webpack' ]
+170 verbose url resolved https://registry.npmjs.org/webpack
+171 verbose request where is https://registry.npmjs.org/webpack
+172 info trying registry request attempt 1 at 11:40:59
+173 verbose etag "1IG87AIHGII2I0Y44DCSAMDLP"
+174 http GET https://registry.npmjs.org/webpack
+175 http 200 https://registry.npmjs.org/eslint-plugin-react
+176 silly registry.get cb [ 200,
+176 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+176 silly registry.get     etag: '"EN1AEARVA5T8AO3HZMNM8A1YJ"',
+176 silly registry.get     'content-type': 'application/json',
+176 silly registry.get     'cache-control': 'max-age=60',
+176 silly registry.get     'content-length': '62836',
+176 silly registry.get     'accept-ranges': 'bytes',
+176 silly registry.get     date: 'Sat, 29 Aug 2015 16:40:59 GMT',
+176 silly registry.get     via: '1.1 varnish',
+176 silly registry.get     age: '13',
+176 silly registry.get     connection: 'keep-alive',
+176 silly registry.get     'x-served-by': 'cache-ord1722-ORD',
+176 silly registry.get     'x-cache': 'HIT',
+176 silly registry.get     'x-cache-hits': '1',
+176 silly registry.get     'x-timer': 'S1440866459.070076,VS0,VE1',
+176 silly registry.get     vary: 'Accept' } ]
+177 http 200 https://registry.npmjs.org/eslint
+178 silly registry.get cb [ 200,
+178 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+178 silly registry.get     etag: '"C4S1T3P5YE95YVAOU8QKEC16G"',
+178 silly registry.get     'content-type': 'application/json',
+178 silly registry.get     'cache-control': 'max-age=60',
+178 silly registry.get     'content-length': '162998',
+178 silly registry.get     'accept-ranges': 'bytes',
+178 silly registry.get     date: 'Sat, 29 Aug 2015 16:40:59 GMT',
+178 silly registry.get     via: '1.1 varnish',
+178 silly registry.get     age: '14',
+178 silly registry.get     connection: 'keep-alive',
+178 silly registry.get     'x-served-by': 'cache-ord1726-ORD',
+178 silly registry.get     'x-cache': 'HIT',
+178 silly registry.get     'x-cache-hits': '1',
+178 silly registry.get     'x-timer': 'S1440866459.070748,VS0,VE1',
+178 silly registry.get     vary: 'Accept' } ]
+179 silly addNameRange number 2 { name: 'eslint-plugin-react', range: '*', hasData: true }
+180 silly addNameRange versions [ 'eslint-plugin-react',
+180 silly addNameRange   [ '1.0.0',
+180 silly addNameRange     '1.1.0',
+180 silly addNameRange     '1.2.0',
+180 silly addNameRange     '1.2.1',
+180 silly addNameRange     '1.2.2',
+180 silly addNameRange     '1.3.0',
+180 silly addNameRange     '1.4.0',
+180 silly addNameRange     '1.4.1',
+180 silly addNameRange     '1.5.0',
+180 silly addNameRange     '1.6.0',
+180 silly addNameRange     '1.6.1',
+180 silly addNameRange     '2.0.0',
+180 silly addNameRange     '2.0.1',
+180 silly addNameRange     '2.0.2',
+180 silly addNameRange     '2.1.0',
+180 silly addNameRange     '2.1.1',
+180 silly addNameRange     '2.2.0',
+180 silly addNameRange     '2.3.0',
+180 silly addNameRange     '2.4.0',
+180 silly addNameRange     '2.5.0',
+180 silly addNameRange     '2.5.1',
+180 silly addNameRange     '2.5.2',
+180 silly addNameRange     '2.6.0',
+180 silly addNameRange     '2.6.1',
+180 silly addNameRange     '2.6.2',
+180 silly addNameRange     '2.6.3',
+180 silly addNameRange     '2.6.4',
+180 silly addNameRange     '2.7.0',
+180 silly addNameRange     '2.7.1',
+180 silly addNameRange     '3.0.0',
+180 silly addNameRange     '3.1.0',
+180 silly addNameRange     '3.2.0',
+180 silly addNameRange     '3.2.1',
+180 silly addNameRange     '3.2.2',
+180 silly addNameRange     '3.2.3',
+180 silly addNameRange     '3.3.0' ] ]
+181 verbose addNamed [ 'eslint-plugin-react', '3.3.0' ]
+182 verbose addNamed [ '3.3.0', '3.3.0' ]
+183 silly lockFile e0d6b921-eslint-plugin-react-3-3-0 eslint-plugin-react@3.3.0
+184 verbose lock eslint-plugin-react@3.3.0 /Users/ryanyogan/.npm/e0d6b921-eslint-plugin-react-3-3-0.lock
+185 silly addNameRange number 2 { name: 'eslint', range: '*', hasData: true }
+186 silly addNameRange versions [ 'eslint',
+186 silly addNameRange   [ '0.0.4',
+186 silly addNameRange     '0.0.5',
+186 silly addNameRange     '0.0.6',
+186 silly addNameRange     '0.0.7',
+186 silly addNameRange     '0.1.0-dev',
+186 silly addNameRange     '0.1.0',
+186 silly addNameRange     '0.1.1',
+186 silly addNameRange     '0.1.2',
+186 silly addNameRange     '0.1.3',
+186 silly addNameRange     '0.1.4',
+186 silly addNameRange     '0.2.0',
+186 silly addNameRange     '0.3.0',
+186 silly addNameRange     '0.4.0',
+186 silly addNameRange     '0.4.1',
+186 silly addNameRange     '0.4.2',
+186 silly addNameRange     '0.4.3',
+186 silly addNameRange     '0.4.4',
+186 silly addNameRange     '0.4.5',
+186 silly addNameRange     '0.5.0',
+186 silly addNameRange     '0.5.1',
+186 silly addNameRange     '0.6.0',
+186 silly addNameRange     '0.6.1',
+186 silly addNameRange     '0.6.2',
+186 silly addNameRange     '0.7.1',
+186 silly addNameRange     '0.7.2',
+186 silly addNameRange     '0.7.3',
+186 silly addNameRange     '0.7.4',
+186 silly addNameRange     '0.8.0',
+186 silly addNameRange     '0.8.1',
+186 silly addNameRange     '0.8.2',
+186 silly addNameRange     '0.9.0',
+186 silly addNameRange     '0.9.1',
+186 silly addNameRange     '0.9.2',
+186 silly addNameRange     '0.10.0-alpha',
+186 silly addNameRange     '0.10.0-alpha.1',
+186 silly addNameRange     '0.10.0-alpha.2',
+186 silly addNameRange     '0.10.0',
+186 silly addNameRange     '0.11.0-alpha.0',
+186 silly addNameRange     '0.10.1',
+186 silly addNameRange     '0.10.2',
+186 silly addNameRange     '0.11.0',
+186 silly addNameRange     '0.12.0',
+186 silly addNameRange     '0.13.0',
+186 silly addNameRange     '0.14.0',
+186 silly addNameRange     '0.14.1',
+186 silly addNameRange     '0.15.0',
+186 silly addNameRange     '0.15.1',
+186 silly addNameRange     '0.16.0',
+186 silly addNameRange     '0.16.1',
+186 silly addNameRange     '0.16.2',
+186 silly addNameRange     '0.17.0',
+186 silly addNameRange     '0.17.1',
+186 silly addNameRange     '0.18.0',
+186 silly addNameRange     '0.19.0',
+186 silly addNameRange     '0.20.0',
+186 silly addNameRange     '0.21.0',
+186 silly addNameRange     '0.21.1',
+186 silly addNameRange     '0.21.2',
+186 silly addNameRange     '0.22.0',
+186 silly addNameRange     '0.22.1',
+186 silly addNameRange     '0.23.0',
+186 silly addNameRange     '0.24.0',
+186 silly addNameRange     '0.24.1',
+186 silly addNameRange     '1.0.0-rc-1',
+186 silly addNameRange     '1.0.0-rc-2',
+186 silly addNameRange     '1.0.0-rc-3',
+186 silly addNameRange     '1.0.0',
+186 silly addNameRange     '1.1.0',
+186 silly addNameRange     '1.2.0',
+186 silly addNameRange     '1.2.1',
+186 silly addNameRange     '1.3.0',
+186 silly addNameRange     '1.3.1' ] ]
+187 verbose addNamed [ 'eslint', '1.3.1' ]
+188 verbose addNamed [ '1.3.1', '1.3.1' ]
+189 silly lockFile b2ef8d46-eslint-1-3-1 eslint@1.3.1
+190 verbose lock eslint@1.3.1 /Users/ryanyogan/.npm/b2ef8d46-eslint-1-3-1.lock
+191 silly lockFile 57cf7e5f-ct-eslint-plugin-react-3-3-0-tgz https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.3.0.tgz
+192 verbose lock https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.3.0.tgz /Users/ryanyogan/.npm/57cf7e5f-ct-eslint-plugin-react-3-3-0-tgz.lock
+193 silly lockFile f081ed03-pmjs-org-eslint-eslint-1-3-1-tgz https://registry.npmjs.org/eslint/-/eslint-1.3.1.tgz
+194 verbose lock https://registry.npmjs.org/eslint/-/eslint-1.3.1.tgz /Users/ryanyogan/.npm/f081ed03-pmjs-org-eslint-eslint-1-3-1-tgz.lock
+195 verbose addRemoteTarball [ 'https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.3.0.tgz',
+195 verbose addRemoteTarball   'eb0959a4a6734e985330dc3cf4b60833ec52cdb9' ]
+196 verbose addRemoteTarball [ 'https://registry.npmjs.org/eslint/-/eslint-1.3.1.tgz',
+196 verbose addRemoteTarball   '4ed73211c95e7605e9c50c2d038c9460816617ed' ]
+197 info retry fetch attempt 1 at 11:40:59
+198 verbose fetch to= /var/folders/5x/d88xtrm50rx79vglpyj703180000gn/T/npm-77937-fkn__dcC/registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.3.0.tgz
+199 info retry fetch attempt 1 at 11:40:59
+200 verbose fetch to= /var/folders/5x/d88xtrm50rx79vglpyj703180000gn/T/npm-77937-fkn__dcC/registry.npmjs.org/eslint/-/eslint-1.3.1.tgz
+201 http GET https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.3.0.tgz
+202 http GET https://registry.npmjs.org/eslint/-/eslint-1.3.1.tgz
+203 http 200 https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.3.0.tgz
+204 http 200 https://registry.npmjs.org/eslint/-/eslint-1.3.1.tgz
+205 silly lockFile 57cf7e5f-ct-eslint-plugin-react-3-3-0-tgz https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.3.0.tgz
+206 silly lockFile 57cf7e5f-ct-eslint-plugin-react-3-3-0-tgz https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.3.0.tgz
+207 silly lockFile e0d6b921-eslint-plugin-react-3-3-0 eslint-plugin-react@3.3.0
+208 silly lockFile e0d6b921-eslint-plugin-react-3-3-0 eslint-plugin-react@3.3.0
+209 silly lockFile fdb168d3-eslint-plugin-react eslint-plugin-react@
+210 silly lockFile fdb168d3-eslint-plugin-react eslint-plugin-react@
+211 http 200 https://registry.npmjs.org/babel-loader
+212 silly registry.get cb [ 200,
+212 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+212 silly registry.get     etag: '"AEY537SKEM4GJTVCUWJ29WMX9"',
+212 silly registry.get     'content-type': 'application/json',
+212 silly registry.get     'cache-control': 'max-age=60',
+212 silly registry.get     'content-length': '29108',
+212 silly registry.get     'accept-ranges': 'bytes',
+212 silly registry.get     date: 'Sat, 29 Aug 2015 16:40:59 GMT',
+212 silly registry.get     via: '1.1 varnish',
+212 silly registry.get     age: '0',
+212 silly registry.get     connection: 'keep-alive',
+212 silly registry.get     'x-served-by': 'cache-ord1723-ORD',
+212 silly registry.get     'x-cache': 'HIT',
+212 silly registry.get     'x-cache-hits': '1',
+212 silly registry.get     'x-timer': 'S1440866459.078003,VS0,VE149',
+212 silly registry.get     vary: 'Accept' } ]
+213 silly addNameRange number 2 { name: 'babel-loader', range: '*', hasData: true }
+214 silly addNameRange versions [ 'babel-loader',
+214 silly addNameRange   [ '4.0.0',
+214 silly addNameRange     '4.1.0',
+214 silly addNameRange     '4.2.0',
+214 silly addNameRange     '4.3.0',
+214 silly addNameRange     '5.0.0',
+214 silly addNameRange     '5.1.0',
+214 silly addNameRange     '5.1.2',
+214 silly addNameRange     '5.1.3',
+214 silly addNameRange     '5.1.4',
+214 silly addNameRange     '5.2.0',
+214 silly addNameRange     '5.2.1',
+214 silly addNameRange     '5.2.2',
+214 silly addNameRange     '5.3.0',
+214 silly addNameRange     '5.3.1',
+214 silly addNameRange     '5.3.2' ] ]
+215 verbose addNamed [ 'babel-loader', '5.3.2' ]
+216 verbose addNamed [ '5.3.2', '5.3.2' ]
+217 silly lockFile 5fba6876-babel-loader-5-3-2 babel-loader@5.3.2
+218 verbose lock babel-loader@5.3.2 /Users/ryanyogan/.npm/5fba6876-babel-loader-5-3-2.lock
+219 silly lockFile f081ed03-pmjs-org-eslint-eslint-1-3-1-tgz https://registry.npmjs.org/eslint/-/eslint-1.3.1.tgz
+220 silly lockFile f081ed03-pmjs-org-eslint-eslint-1-3-1-tgz https://registry.npmjs.org/eslint/-/eslint-1.3.1.tgz
+221 silly lockFile b2ef8d46-eslint-1-3-1 eslint@1.3.1
+222 silly lockFile b2ef8d46-eslint-1-3-1 eslint@1.3.1
+223 silly lockFile 62e46387-eslint eslint@
+224 silly lockFile 62e46387-eslint eslint@
+225 silly lockFile 5fba6876-babel-loader-5-3-2 babel-loader@5.3.2
+226 silly lockFile 5fba6876-babel-loader-5-3-2 babel-loader@5.3.2
+227 silly lockFile 3cb9c35b-babel-loader babel-loader@
+228 silly lockFile 3cb9c35b-babel-loader babel-loader@
+229 http 200 https://registry.npmjs.org/babel
+230 silly registry.get cb [ 200,
+230 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+230 silly registry.get     etag: '"4MBS8HWLK80I19PW9KPSXB697"',
+230 silly registry.get     'content-type': 'application/json',
+230 silly registry.get     'cache-control': 'max-age=60',
+230 silly registry.get     'content-length': '209463',
+230 silly registry.get     'accept-ranges': 'bytes',
+230 silly registry.get     date: 'Sat, 29 Aug 2015 16:40:59 GMT',
+230 silly registry.get     via: '1.1 varnish',
+230 silly registry.get     age: '0',
+230 silly registry.get     connection: 'keep-alive',
+230 silly registry.get     'x-served-by': 'cache-ord1731-ORD',
+230 silly registry.get     'x-cache': 'HIT',
+230 silly registry.get     'x-cache-hits': '1',
+230 silly registry.get     'x-timer': 'S1440866459.077612,VS0,VE151',
+230 silly registry.get     vary: 'Accept' } ]
+231 silly addNameRange number 2 { name: 'babel', range: '*', hasData: true }
+232 silly addNameRange versions [ 'babel',
+232 silly addNameRange   [ '0.0.1',
+232 silly addNameRange     '4.0.1',
+232 silly addNameRange     '4.0.2',
+232 silly addNameRange     '4.1.1',
+232 silly addNameRange     '4.2.0',
+232 silly addNameRange     '4.2.1',
+232 silly addNameRange     '4.3.0',
+232 silly addNameRange     '4.4.1',
+232 silly addNameRange     '4.4.2',
+232 silly addNameRange     '4.4.3',
+232 silly addNameRange     '4.4.4',
+232 silly addNameRange     '4.4.5',
+232 silly addNameRange     '4.4.6',
+232 silly addNameRange     '4.5.0',
+232 silly addNameRange     '4.5.1',
+232 silly addNameRange     '4.5.2',
+232 silly addNameRange     '4.5.3',
+232 silly addNameRange     '4.5.4',
+232 silly addNameRange     '4.5.5',
+232 silly addNameRange     '4.6.0',
+232 silly addNameRange     '4.6.1',
+232 silly addNameRange     '4.6.3',
+232 silly addNameRange     '4.6.4',
+232 silly addNameRange     '4.6.5',
+232 silly addNameRange     '4.6.6',
+232 silly addNameRange     '4.7.0',
+232 silly addNameRange     '4.7.1',
+232 silly addNameRange     '4.7.2',
+232 silly addNameRange     '4.7.3',
+232 silly addNameRange     '4.7.4',
+232 silly addNameRange     '4.7.5',
+232 silly addNameRange     '4.7.6',
+232 silly addNameRange     '4.7.7',
+232 silly addNameRange     '4.7.8',
+232 silly addNameRange     '4.7.9',
+232 silly addNameRange     '4.7.10',
+232 silly addNameRange     '4.7.11',
+232 silly addNameRange     '4.7.12',
+232 silly addNameRange     '4.7.13',
+232 silly addNameRange     '4.7.14',
+232 silly addNameRange     '4.7.15',
+232 silly addNameRange     '4.7.16',
+232 silly addNameRange     '5.0.0-beta2',
+232 silly addNameRange     '5.0.0-beta3',
+232 silly addNameRange     '5.0.0-beta4',
+232 silly addNameRange     '5.0.0',
+232 silly addNameRange     '5.0.1',
+232 silly addNameRange     '5.0.2',
+232 silly addNameRange     '5.0.3',
+232 silly addNameRange     '5.0.4',
+232 silly addNameRange     '5.0.5',
+232 silly addNameRange     '5.0.6',
+232 silly addNameRange     '5.0.7',
+232 silly addNameRange     '5.0.8',
+232 silly addNameRange     '5.0.9',
+232 silly addNameRange     '5.0.10',
+232 silly addNameRange     '5.0.11',
+232 silly addNameRange     '5.0.12',
+232 silly addNameRange     '5.0.13',
+232 silly addNameRange     '5.1.0',
+232 silly addNameRange     '5.1.1',
+232 silly addNameRange     '5.1.2',
+232 silly addNameRange     '5.1.3',
+232 silly addNameRange     '5.1.4',
+232 silly addNameRange     '5.1.5',
+232 silly addNameRange     '5.1.6',
+232 silly addNameRange     '5.1.7',
+232 silly addNameRange     '5.1.8',
+232 silly addNameRange     '5.1.9',
+232 silly addNameRange     '5.1.10',
+232 silly addNameRange     '5.1.11',
+232 silly addNameRange     '5.1.12',
+232 silly addNameRange     '5.1.13',
+232 silly addNameRange     '5.2.0',
+232 silly addNameRange     '5.2.1',
+232 silly addNameRange     '5.2.2',
+232 silly addNameRange     '5.2.3',
+232 silly addNameRange     '5.2.4',
+232 silly addNameRange     '5.2.5',
+232 silly addNameRange     '5.2.6',
+232 silly addNameRange     '5.2.7',
+232 silly addNameRange     '5.2.9',
+232 silly addNameRange     '5.2.10',
+232 silly addNameRange     '5.2.11',
+232 silly addNameRange     '5.2.12',
+232 silly addNameRange     '5.2.13',
+232 silly addNameRange     '5.2.14',
+232 silly addNameRange     '5.2.15',
+232 silly addNameRange     '5.2.16',
+232 silly addNameRange     '5.2.17',
+232 silly addNameRange     '5.3.0',
+232 silly addNameRange     '5.3.1',
+232 silly addNameRange     '5.3.2',
+232 silly addNameRange     '5.3.3',
+232 silly addNameRange     '5.4.0',
+232 silly addNameRange     '5.4.1',
+232 silly addNameRange     '5.4.2',
+232 silly addNameRange     '5.4.3',
+232 silly addNameRange     '5.4.4',
+232 silly addNameRange     '5.4.5',
+232 silly addNameRange     '5.4.6',
+232 silly addNameRange     '5.4.7',
+232 silly addNameRange     '5.5.0',
+232 silly addNameRange     '5.5.1',
+232 silly addNameRange     '5.5.2',
+232 silly addNameRange     '5.5.3',
+232 silly addNameRange     '5.5.4',
+232 silly addNameRange     '5.5.5',
+232 silly addNameRange     '5.5.6',
+232 silly addNameRange     '5.5.7',
+232 silly addNameRange     '5.5.8',
+232 silly addNameRange     '5.6.1',
+232 silly addNameRange     '5.6.2',
+232 silly addNameRange     '5.6.3',
+232 silly addNameRange     '5.6.4',
+232 silly addNameRange     '5.6.5',
+232 silly addNameRange     '5.6.6',
+232 silly addNameRange     '5.6.7',
+232 silly addNameRange     '5.6.10',
+232 silly addNameRange     '5.6.11',
+232 silly addNameRange     '5.6.12',
+232 silly addNameRange     '5.6.14',
+232 silly addNameRange     '5.6.23',
+232 silly addNameRange     '5.8.2',
+232 silly addNameRange     '5.8.3',
+232 silly addNameRange     '5.8.5',
+232 silly addNameRange     '5.8.6',
+232 silly addNameRange     '5.8.8',
+232 silly addNameRange     '5.8.9',
+232 silly addNameRange     '5.8.12',
+232 silly addNameRange     '5.8.19',
+232 silly addNameRange     '5.8.20',
+232 silly addNameRange     '5.8.21',
+232 silly addNameRange     '5.8.23' ] ]
+233 verbose addNamed [ 'babel', '5.8.23' ]
+234 verbose addNamed [ '5.8.23', '5.8.23' ]
+235 silly lockFile e71331eb-babel-5-8-23 babel@5.8.23
+236 verbose lock babel@5.8.23 /Users/ryanyogan/.npm/e71331eb-babel-5-8-23.lock
+237 silly lockFile 2a51f4f8-npmjs-org-babel-babel-5-8-23-tgz https://registry.npmjs.org/babel/-/babel-5.8.23.tgz
+238 verbose lock https://registry.npmjs.org/babel/-/babel-5.8.23.tgz /Users/ryanyogan/.npm/2a51f4f8-npmjs-org-babel-babel-5-8-23-tgz.lock
+239 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel/-/babel-5.8.23.tgz',
+239 verbose addRemoteTarball   'ccfc3fbb173ca2442f455d67793c28fd2a197d5d' ]
+240 info retry fetch attempt 1 at 11:40:59
+241 verbose fetch to= /var/folders/5x/d88xtrm50rx79vglpyj703180000gn/T/npm-77937-fkn__dcC/registry.npmjs.org/babel/-/babel-5.8.23.tgz
+242 http GET https://registry.npmjs.org/babel/-/babel-5.8.23.tgz
+243 http 200 https://registry.npmjs.org/babel/-/babel-5.8.23.tgz
+244 silly lockFile 2a51f4f8-npmjs-org-babel-babel-5-8-23-tgz https://registry.npmjs.org/babel/-/babel-5.8.23.tgz
+245 silly lockFile 2a51f4f8-npmjs-org-babel-babel-5-8-23-tgz https://registry.npmjs.org/babel/-/babel-5.8.23.tgz
+246 silly lockFile e71331eb-babel-5-8-23 babel@5.8.23
+247 silly lockFile e71331eb-babel-5-8-23 babel@5.8.23
+248 silly lockFile 8d1f9cea-babel babel@
+249 silly lockFile 8d1f9cea-babel babel@
+250 http 200 https://registry.npmjs.org/babel-eslint
+251 silly registry.get cb [ 200,
+251 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+251 silly registry.get     etag: '"A7GGZXRMHP7T5KI36TY1RFH1F"',
+251 silly registry.get     'content-type': 'application/json',
+251 silly registry.get     'cache-control': 'max-age=60',
+251 silly registry.get     'content-length': '77414',
+251 silly registry.get     'accept-ranges': 'bytes',
+251 silly registry.get     date: 'Sat, 29 Aug 2015 16:40:59 GMT',
+251 silly registry.get     via: '1.1 varnish',
+251 silly registry.get     age: '0',
+251 silly registry.get     connection: 'keep-alive',
+251 silly registry.get     'x-served-by': 'cache-ord1722-ORD',
+251 silly registry.get     'x-cache': 'HIT',
+251 silly registry.get     'x-cache-hits': '1',
+251 silly registry.get     'x-timer': 'S1440866459.077301,VS0,VE297',
+251 silly registry.get     vary: 'Accept' } ]
+252 silly addNameRange number 2 { name: 'babel-eslint', range: '*', hasData: true }
+253 silly addNameRange versions [ 'babel-eslint',
+253 silly addNameRange   [ '1.0.0',
+253 silly addNameRange     '1.0.1',
+253 silly addNameRange     '1.0.2',
+253 silly addNameRange     '1.0.3',
+253 silly addNameRange     '1.0.4',
+253 silly addNameRange     '1.0.6',
+253 silly addNameRange     '1.0.7',
+253 silly addNameRange     '1.0.8',
+253 silly addNameRange     '1.0.9',
+253 silly addNameRange     '1.0.10',
+253 silly addNameRange     '1.0.11',
+253 silly addNameRange     '1.0.12',
+253 silly addNameRange     '1.0.13',
+253 silly addNameRange     '1.0.14',
+253 silly addNameRange     '2.0.0',
+253 silly addNameRange     '2.0.2',
+253 silly addNameRange     '3.0.0',
+253 silly addNameRange     '3.0.1',
+253 silly addNameRange     '3.1.0',
+253 silly addNameRange     '3.1.1',
+253 silly addNameRange     '3.1.3',
+253 silly addNameRange     '3.1.4',
+253 silly addNameRange     '3.1.5',
+253 silly addNameRange     '3.1.6',
+253 silly addNameRange     '3.1.7',
+253 silly addNameRange     '3.1.8',
+253 silly addNameRange     '3.1.9',
+253 silly addNameRange     '3.1.10',
+253 silly addNameRange     '3.1.11',
+253 silly addNameRange     '3.1.12',
+253 silly addNameRange     '3.1.13',
+253 silly addNameRange     '3.1.14',
+253 silly addNameRange     '3.1.15',
+253 silly addNameRange     '3.1.16',
+253 silly addNameRange     '3.1.17',
+253 silly addNameRange     '3.1.18',
+253 silly addNameRange     '3.1.19',
+253 silly addNameRange     '3.1.20',
+253 silly addNameRange     '3.1.21',
+253 silly addNameRange     '3.1.22',
+253 silly addNameRange     '3.1.23',
+253 silly addNameRange     '3.1.24',
+253 silly addNameRange     '3.1.25',
+253 silly addNameRange     '3.1.26',
+253 silly addNameRange     '3.1.27',
+253 silly addNameRange     '4.0.0',
+253 silly addNameRange     '4.0.1',
+253 silly addNameRange     '4.0.2',
+253 silly addNameRange     '3.1.28',
+253 silly addNameRange     '4.0.3',
+253 silly addNameRange     '3.1.29',
+253 silly addNameRange     '4.0.4',
+253 silly addNameRange     '3.1.30',
+253 silly addNameRange     '4.0.5',
+253 silly addNameRange     '4.0.6',
+253 silly addNameRange     '4.0.7',
+253 silly addNameRange     '4.0.8',
+253 silly addNameRange     '4.0.9',
+253 silly addNameRange     '4.0.10',
+253 silly addNameRange     '4.1.0' ] ]
+254 verbose addNamed [ 'babel-eslint', '4.1.0' ]
+255 verbose addNamed [ '4.1.0', '4.1.0' ]
+256 silly lockFile 8be725bf-babel-eslint-4-1-0 babel-eslint@4.1.0
+257 verbose lock babel-eslint@4.1.0 /Users/ryanyogan/.npm/8be725bf-babel-eslint-4-1-0.lock
+258 silly lockFile 7f152fce-el-eslint-babel-eslint-4-1-0-tgz https://registry.npmjs.org/babel-eslint/-/babel-eslint-4.1.0.tgz
+259 verbose lock https://registry.npmjs.org/babel-eslint/-/babel-eslint-4.1.0.tgz /Users/ryanyogan/.npm/7f152fce-el-eslint-babel-eslint-4-1-0-tgz.lock
+260 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-eslint/-/babel-eslint-4.1.0.tgz',
+260 verbose addRemoteTarball   '8ad0058689b78ab5d132cadde8b3aa6de0280f8e' ]
+261 info retry fetch attempt 1 at 11:40:59
+262 verbose fetch to= /var/folders/5x/d88xtrm50rx79vglpyj703180000gn/T/npm-77937-fkn__dcC/registry.npmjs.org/babel-eslint/-/babel-eslint-4.1.0.tgz
+263 http GET https://registry.npmjs.org/babel-eslint/-/babel-eslint-4.1.0.tgz
+264 http 304 https://registry.npmjs.org/webpack-dev-server
+265 silly registry.get cb [ 304,
+265 silly registry.get   { date: 'Sat, 29 Aug 2015 16:40:59 GMT',
+265 silly registry.get     via: '1.1 varnish',
+265 silly registry.get     'cache-control': 'max-age=60',
+265 silly registry.get     etag: '"6P7JVDZUG0TUYTA4N93EZWD0Y"',
+265 silly registry.get     age: '0',
+265 silly registry.get     connection: 'keep-alive',
+265 silly registry.get     'x-served-by': 'cache-ord1726-ORD',
+265 silly registry.get     'x-cache': 'HIT',
+265 silly registry.get     'x-cache-hits': '1',
+265 silly registry.get     'x-timer': 'S1440866459.123556,VS0,VE302',
+265 silly registry.get     vary: 'Accept' } ]
+266 verbose etag https://registry.npmjs.org/webpack-dev-server from cache
+267 http 200 https://registry.npmjs.org/react-hot-loader
+268 silly registry.get cb [ 200,
+268 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+268 silly registry.get     etag: '"2ZQ5H0HPRAOS4D73YS0X2J07Y"',
+268 silly registry.get     'content-type': 'application/json',
+268 silly registry.get     'cache-control': 'max-age=60',
+268 silly registry.get     'content-length': '75233',
+268 silly registry.get     'accept-ranges': 'bytes',
+268 silly registry.get     date: 'Sat, 29 Aug 2015 16:40:59 GMT',
+268 silly registry.get     via: '1.1 varnish',
+268 silly registry.get     age: '0',
+268 silly registry.get     connection: 'keep-alive',
+268 silly registry.get     'x-served-by': 'cache-ord1722-ORD',
+268 silly registry.get     'x-cache': 'MISS',
+268 silly registry.get     'x-cache-hits': '0',
+268 silly registry.get     'x-timer': 'S1440866459.116826,VS0,VE297',
+268 silly registry.get     vary: 'Accept' } ]
+269 silly addNameRange number 2 { name: 'webpack-dev-server', range: '*', hasData: true }
+270 silly addNameRange versions [ 'webpack-dev-server',
+270 silly addNameRange   [ '0.6.0',
+270 silly addNameRange     '0.6.1',
+270 silly addNameRange     '0.6.2',
+270 silly addNameRange     '0.7.0',
+270 silly addNameRange     '0.7.1',
+270 silly addNameRange     '0.7.2',
+270 silly addNameRange     '0.8.0',
+270 silly addNameRange     '0.8.1',
+270 silly addNameRange     '0.8.2',
+270 silly addNameRange     '0.9.0',
+270 silly addNameRange     '0.9.1',
+270 silly addNameRange     '0.9.2',
+270 silly addNameRange     '0.9.3',
+270 silly addNameRange     '0.9.4',
+270 silly addNameRange     '0.10.0',
+270 silly addNameRange     '0.10.1',
+270 silly addNameRange     '0.11.0',
+270 silly addNameRange     '0.11.1',
+270 silly addNameRange     '1.0.0',
+270 silly addNameRange     '1.0.1',
+270 silly addNameRange     '1.0.2',
+270 silly addNameRange     '1.1.0',
+270 silly addNameRange     '1.2.0',
+270 silly addNameRange     '1.2.1',
+270 silly addNameRange     '1.2.2',
+270 silly addNameRange     '1.2.3',
+270 silly addNameRange     '1.2.4',
+270 silly addNameRange     '1.2.5',
+270 silly addNameRange     '1.2.6',
+270 silly addNameRange     '1.2.7',
+270 silly addNameRange     '1.2.8',
+270 silly addNameRange     '1.2.9',
+270 silly addNameRange     '1.3.0',
+270 silly addNameRange     '1.3.1',
+270 silly addNameRange     '1.3.2',
+270 silly addNameRange     '1.4.0',
+270 silly addNameRange     '1.4.1',
+270 silly addNameRange     '1.4.2',
+270 silly addNameRange     '1.4.3',
+270 silly addNameRange     '1.4.4',
+270 silly addNameRange     '1.4.5',
+270 silly addNameRange     '1.4.6',
+270 silly addNameRange     '1.4.7',
+270 silly addNameRange     '1.4.9',
+270 silly addNameRange     '1.4.10',
+270 silly addNameRange     '1.5.0',
+270 silly addNameRange     '1.6.0',
+270 silly addNameRange     '1.6.1',
+270 silly addNameRange     '1.6.2',
+270 silly addNameRange     '1.6.3',
+270 silly addNameRange     '1.6.4',
+270 silly addNameRange     '1.6.5',
+270 silly addNameRange     '1.6.6',
+270 silly addNameRange     '1.7.0',
+270 silly addNameRange     '1.8.0',
+270 silly addNameRange     '1.8.1',
+270 silly addNameRange     '1.8.2',
+270 silly addNameRange     '1.9.0',
+270 silly addNameRange     '1.10.0',
+270 silly addNameRange     '1.10.1' ] ]
+271 verbose addNamed [ 'webpack-dev-server', '1.10.1' ]
+272 verbose addNamed [ '1.10.1', '1.10.1' ]
+273 silly lockFile 424293ad-webpack-dev-server-1-10-1 webpack-dev-server@1.10.1
+274 verbose lock webpack-dev-server@1.10.1 /Users/ryanyogan/.npm/424293ad-webpack-dev-server-1-10-1.lock
+275 silly addNameRange number 2 { name: 'react-hot-loader', range: '*', hasData: true }
+276 silly addNameRange versions [ 'react-hot-loader',
+276 silly addNameRange   [ '0.1.0',
+276 silly addNameRange     '0.1.2',
+276 silly addNameRange     '0.1.3',
+276 silly addNameRange     '0.1.4',
+276 silly addNameRange     '0.1.5',
+276 silly addNameRange     '0.1.6',
+276 silly addNameRange     '0.1.7',
+276 silly addNameRange     '0.1.8',
+276 silly addNameRange     '0.1.9',
+276 silly addNameRange     '0.1.10',
+276 silly addNameRange     '0.1.11',
+276 silly addNameRange     '0.2.0',
+276 silly addNameRange     '0.3.0',
+276 silly addNameRange     '0.3.1',
+276 silly addNameRange     '0.4.0',
+276 silly addNameRange     '0.4.1',
+276 silly addNameRange     '0.4.2',
+276 silly addNameRange     '0.4.3',
+276 silly addNameRange     '0.4.4',
+276 silly addNameRange     '0.4.5',
+276 silly addNameRange     '0.5.0',
+276 silly addNameRange     '1.0.0-alpha',
+276 silly addNameRange     '1.0.0-alpha.1',
+276 silly addNameRange     '1.0.0-alpha.2',
+276 silly addNameRange     '1.0.0-alpha.3',
+276 silly addNameRange     '1.0.0',
+276 silly addNameRange     '1.0.1',
+276 silly addNameRange     '1.0.2',
+276 silly addNameRange     '1.0.3',
+276 silly addNameRange     '1.0.4',
+276 silly addNameRange     '1.0.5',
+276 silly addNameRange     '1.0.6',
+276 silly addNameRange     '1.0.7',
+276 silly addNameRange     '1.1.0',
+276 silly addNameRange     '1.1.1',
+276 silly addNameRange     '1.1.2',
+276 silly addNameRange     '1.1.3',
+276 silly addNameRange     '1.1.4',
+276 silly addNameRange     '1.1.5',
+276 silly addNameRange     '1.1.6',
+276 silly addNameRange     '1.1.7',
+276 silly addNameRange     '1.2.0',
+276 silly addNameRange     '1.2.1',
+276 silly addNameRange     '1.2.2',
+276 silly addNameRange     '1.2.3',
+276 silly addNameRange     '1.2.4',
+276 silly addNameRange     '1.2.5',
+276 silly addNameRange     '1.2.6',
+276 silly addNameRange     '1.2.7',
+276 silly addNameRange     '1.2.8',
+276 silly addNameRange     '1.2.9',
+276 silly addNameRange     '2.0.0-alpha',
+276 silly addNameRange     '2.0.0-alpha-1',
+276 silly addNameRange     '2.0.0-alpha-2',
+276 silly addNameRange     '2.0.0-alpha-3',
+276 silly addNameRange     '1.3.0',
+276 silly addNameRange     '2.0.0-alpha-4' ] ]
+277 verbose addNamed [ 'react-hot-loader', '1.3.0' ]
+278 verbose addNamed [ '1.3.0', '1.3.0' ]
+279 silly lockFile 5972c6b5-react-hot-loader-1-3-0 react-hot-loader@1.3.0
+280 verbose lock react-hot-loader@1.3.0 /Users/ryanyogan/.npm/5972c6b5-react-hot-loader-1-3-0.lock
+281 silly lockFile ede968c8-oader-react-hot-loader-1-3-0-tgz https://registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz
+282 verbose lock https://registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz /Users/ryanyogan/.npm/ede968c8-oader-react-hot-loader-1-3-0-tgz.lock
+283 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz',
+283 verbose addRemoteTarball   '7701658d02108b5bbc407e200dde591cb7a6ed69' ]
+284 info retry fetch attempt 1 at 11:40:59
+285 verbose fetch to= /var/folders/5x/d88xtrm50rx79vglpyj703180000gn/T/npm-77937-fkn__dcC/registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz
+286 http GET https://registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz
+287 silly lockFile 424293ad-webpack-dev-server-1-10-1 webpack-dev-server@1.10.1
+288 silly lockFile 424293ad-webpack-dev-server-1-10-1 webpack-dev-server@1.10.1
+289 silly lockFile b579fb99-webpack-dev-server webpack-dev-server@
+290 silly lockFile b579fb99-webpack-dev-server webpack-dev-server@
+291 http 200 https://registry.npmjs.org/babel-eslint/-/babel-eslint-4.1.0.tgz
+292 silly lockFile 7f152fce-el-eslint-babel-eslint-4-1-0-tgz https://registry.npmjs.org/babel-eslint/-/babel-eslint-4.1.0.tgz
+293 silly lockFile 7f152fce-el-eslint-babel-eslint-4-1-0-tgz https://registry.npmjs.org/babel-eslint/-/babel-eslint-4.1.0.tgz
+294 silly lockFile 8be725bf-babel-eslint-4-1-0 babel-eslint@4.1.0
+295 silly lockFile 8be725bf-babel-eslint-4-1-0 babel-eslint@4.1.0
+296 silly lockFile 4bec8ef6-babel-eslint babel-eslint@
+297 silly lockFile 4bec8ef6-babel-eslint babel-eslint@
+298 http 200 https://registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz
+299 silly lockFile ede968c8-oader-react-hot-loader-1-3-0-tgz https://registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz
+300 silly lockFile ede968c8-oader-react-hot-loader-1-3-0-tgz https://registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz
+301 silly lockFile 5972c6b5-react-hot-loader-1-3-0 react-hot-loader@1.3.0
+302 silly lockFile 5972c6b5-react-hot-loader-1-3-0 react-hot-loader@1.3.0
+303 silly lockFile d3cb2371-react-hot-loader react-hot-loader@
+304 silly lockFile d3cb2371-react-hot-loader react-hot-loader@
+305 http 200 https://registry.npmjs.org/webpack
+306 silly registry.get cb [ 200,
+306 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+306 silly registry.get     etag: '"5B3UDSITKUVJC1DQT6SHTGQQL"',
+306 silly registry.get     'content-type': 'application/json',
+306 silly registry.get     'cache-control': 'max-age=60',
+306 silly registry.get     'content-length': '686829',
+306 silly registry.get     'accept-ranges': 'bytes',
+306 silly registry.get     date: 'Sat, 29 Aug 2015 16:40:59 GMT',
+306 silly registry.get     via: '1.1 varnish',
+306 silly registry.get     age: '0',
+306 silly registry.get     connection: 'keep-alive',
+306 silly registry.get     'x-served-by': 'cache-ord1723-ORD',
+306 silly registry.get     'x-cache': 'HIT',
+306 silly registry.get     'x-cache-hits': '1',
+306 silly registry.get     'x-timer': 'S1440866459.255497,VS0,VE303',
+306 silly registry.get     vary: 'Accept' } ]
+307 silly addNameRange number 2 { name: 'webpack', range: '*', hasData: true }
+308 silly addNameRange versions [ 'webpack',
+308 silly addNameRange   [ '0.1.0',
+308 silly addNameRange     '0.1.1',
+308 silly addNameRange     '0.1.2',
+308 silly addNameRange     '0.1.3',
+308 silly addNameRange     '0.1.4',
+308 silly addNameRange     '0.1.5',
+308 silly addNameRange     '0.1.6',
+308 silly addNameRange     '0.2.0',
+308 silly addNameRange     '0.2.1',
+308 silly addNameRange     '0.2.2',
+308 silly addNameRange     '0.2.3',
+308 silly addNameRange     '0.2.4',
+308 silly addNameRange     '0.2.6',
+308 silly addNameRange     '0.2.7',
+308 silly addNameRange     '0.2.8',
+308 silly addNameRange     '0.3.0',
+308 silly addNameRange     '0.3.1',
+308 silly addNameRange     '0.3.2',
+308 silly addNameRange     '0.3.3',
+308 silly addNameRange     '0.3.4',
+308 silly addNameRange     '0.3.6',
+308 silly addNameRange     '0.3.7',
+308 silly addNameRange     '0.3.8',
+308 silly addNameRange     '0.3.9',
+308 silly addNameRange     '0.3.10',
+308 silly addNameRange     '0.3.11',
+308 silly addNameRange     '0.3.12',
+308 silly addNameRange     '0.3.13',
+308 silly addNameRange     '0.3.14',
+308 silly addNameRange     '0.3.15',
+308 silly addNameRange     '0.3.16',
+308 silly addNameRange     '0.3.17',
+308 silly addNameRange     '0.3.18',
+308 silly addNameRange     '0.3.19',
+308 silly addNameRange     '0.3.20',
+308 silly addNameRange     '0.4.0',
+308 silly addNameRange     '0.4.1',
+308 silly addNameRange     '0.4.2',
+308 silly addNameRange     '0.4.3',
+308 silly addNameRange     '0.4.4',
+308 silly addNameRange     '0.4.5',
+308 silly addNameRange     '0.4.6',
+308 silly addNameRange     '0.4.7',
+308 silly addNameRange     '0.4.8',
+308 silly addNameRange     '0.4.9',
+308 silly addNameRange     '0.4.10',
+308 silly addNameRange     '0.4.11',
+308 silly addNameRange     '0.4.12',
+308 silly addNameRange     '0.4.13',
+308 silly addNameRange     '0.4.14',
+308 silly addNameRange     '0.4.15',
+308 silly addNameRange     '0.4.16',
+308 silly addNameRange     '0.4.17',
+308 silly addNameRange     '0.4.18',
+308 silly addNameRange     '0.4.19',
+308 silly addNameRange     '0.4.20',
+308 silly addNameRange     '0.4.21',
+308 silly addNameRange     '0.4.23',
+308 silly addNameRange     '0.4.24',
+308 silly addNameRange     '0.4.25',
+308 silly addNameRange     '0.5.0',
+308 silly addNameRange     '0.5.1',
+308 silly addNameRange     '0.5.2',
+308 silly addNameRange     '0.5.3',
+308 silly addNameRange     '0.5.4',
+308 silly addNameRange     '0.5.5',
+308 silly addNameRange     '0.5.6',
+308 silly addNameRange     '0.5.7',
+308 silly addNameRange     '0.5.8',
+308 silly addNameRange     '0.5.10',
+308 silly addNameRange     '0.6.0',
+308 silly addNameRange     '0.6.1',
+308 silly addNameRange     '0.6.2',
+308 silly addNameRange     '0.7.0-beta',
+308 silly addNameRange     '0.7.0-beta2',
+308 silly addNameRange     '0.7.0-beta3',
+308 silly addNameRange     '0.7.0-beta4',
+308 silly addNameRange     '0.7.0-beta5',
+308 silly addNameRange     '0.7.0-beta6',
+308 silly addNameRange     '0.7.0-beta7',
+308 silly addNameRange     '0.7.0-beta8',
+308 silly addNameRange     '0.7.0',
+308 silly addNameRange     '0.7.1',
+308 silly addNameRange     '0.7.2',
+308 silly addNameRange     '0.7.3',
+308 silly addNameRange     '0.7.4',
+308 silly addNameRange     '0.7.5',
+308 silly addNameRange     '0.7.6',
+308 silly addNameRange     '0.7.7',
+308 silly addNameRange     '0.7.8',
+308 silly addNameRange     '0.7.9',
+308 silly addNameRange     '0.7.11',
+308 silly addNameRange     '0.7.12',
+308 silly addNameRange     '0.7.13',
+308 silly addNameRange     '0.7.14',
+308 silly addNameRange     '0.7.15',
+308 silly addNameRange     '0.7.16',
+308 silly addNameRange     '0.7.17',
+308 silly addNameRange     '0.8.0-beta1',
+308 silly addNameRange     '0.8.0-beta2',
+308 silly addNameRange     '0.8.0-beta3',
+308 silly addNameRange     '0.8.0-beta4',
+308 silly addNameRange     '0.8.0',
+308 silly addNameRange     '0.8.2',
+308 silly addNameRange     '0.8.3',
+308 silly addNameRange     '0.9.0-beta1',
+308 silly addNameRange     '0.9.0-beta2',
+308 silly addNameRange     '0.9.0-beta4',
+308 silly addNameRange     '0.9.0-beta5',
+308 silly addNameRange     '0.9.0-beta6',
+308 silly addNameRange     '0.9.0-beta7',
+308 silly addNameRange     '0.9.0-beta8',
+308 silly addNameRange     '0.9.0-beta9',
+308 silly addNameRange     '0.9.0-beta10',
+308 silly addNameRange     '0.9.0-beta11',
+308 silly addNameRange     '0.9.0-beta12',
+308 silly addNameRange     '0.9.0-beta13',
+308 silly addNameRange     '0.9.0-beta14',
+308 silly addNameRange     '0.9.0-beta15',
+308 silly addNameRange     '0.9.0-beta16',
+308 silly addNameRange     '0.9.0-beta17',
+308 silly addNameRange     '0.9.0-beta18',
+308 silly addNameRange     '0.9.0-beta19',
+308 silly addNameRange     '0.9.0-beta20',
+308 silly addNameRange     '0.9.0-beta21',
+308 silly addNameRange     '0.9.0-beta22',
+308 silly addNameRange     '0.9.0-beta23',
+308 silly addNameRange     '0.9.0-beta24',
+308 silly addNameRange     '0.9.0-beta25',
+308 silly addNameRange     '0.9.0-beta26',
+308 silly addNameRange     '0.9.0-beta27',
+308 silly addNameRange     '0.9.0-beta28',
+308 silly addNameRange     '0.9.0-beta29',
+308 silly addNameRange     '0.9.0-beta30',
+308 silly addNameRange     '0.9.0-beta31',
+308 silly addNameRange     '0.9.0-beta32',
+308 silly addNameRange     '0.9.0-beta33',
+308 silly addNameRange     '0.9.0-beta34',
+308 silly addNameRange     '0.9.0-beta35',
+308 silly addNameRange     '0.9.0-beta36',
+308 silly addNameRange     '0.9.0-beta37',
+308 silly addNameRange     '0.9.0-beta38',
+308 silly addNameRange     '0.9.0',
+308 silly addNameRange     '0.9.1',
+308 silly addNameRange     '0.9.2',
+308 silly addNameRange     '0.9.3',
+308 silly addNameRange     '0.10.0-beta2',
+308 silly addNameRange     '0.10.0-beta3',
+308 silly addNameRange     '0.10.0-beta5',
+308 silly addNameRange     '0.10.0-beta6',
+308 silly addNameRange     '0.10.0-beta7',
+308 silly addNameRange     '0.10.0-beta8',
+308 silly addNameRange     '0.10.0-beta9',
+308 silly addNameRange     '0.10.0-beta10',
+308 silly addNameRange     '0.10.0-beta11',
+308 silly addNameRange     '0.10.0-beta12',
+308 silly addNameRange     '0.10.0-beta13',
+308 silly addNameRange     '0.10.0-beta14',
+308 silly addNameRange     '0.10.0-beta15',
+308 silly addNameRange     '0.10.0-beta16',
+308 silly addNameRange     '0.10.0-beta17',
+308 silly addNameRange     '0.10.0-beta18',
+308 silly addNameRange     '0.10.0-beta19',
+308 silly addNameRange     '0.10.0-beta20',
+308 silly addNameRange     '0.10.0-beta21',
+308 silly addNameRange     '0.10.0-beta22',
+308 silly addNameRange     '0.10.0-beta23',
+308 silly addNameRange     '0.10.0-beta24',
+308 silly addNameRange     '0.10.0-beta25',
+308 silly addNameRange     '0.10.0',
+308 silly addNameRange     '0.11.0-beta1',
+308 silly addNameRange     '0.11.0-beta2',
+308 silly addNameRange     '0.11.0-beta3',
+308 silly addNameRange     '0.11.0-beta4',
+308 silly addNameRange     '0.11.0-beta5',
+308 silly addNameRange     '0.11.0-beta6',
+308 silly addNameRange     '0.11.0-beta7',
+308 silly addNameRange     '0.11.0-beta8',
+308 silly addNameRange     '0.11.0-beta9',
+308 silly addNameRange     '0.11.0-beta10',
+308 silly addNameRange     '0.11.0-beta11',
+308 silly addNameRange     '0.11.0-beta12',
+308 silly addNameRange     '0.11.0-beta13',
+308 silly addNameRange     '0.11.0-beta14',
+308 silly addNameRange     '0.11.0-beta15',
+308 silly addNameRange     '0.11.0-beta16',
+308 silly addNameRange     '0.11.0-beta17',
+308 silly addNameRange     '0.11.0-beta18',
+308 silly addNameRange     '0.11.0-beta19',
+308 silly addNameRange     '0.11.0-beta20',
+308 silly addNameRange     '0.11.0-beta21',
+308 silly addNameRange     '0.11.0-beta22',
+308 silly addNameRange     '0.11.0-beta23',
+308 silly addNameRange     '0.11.0-beta24',
+308 silly addNameRange     '0.11.0-beta25',
+308 silly addNameRange     '0.11.0-beta26',
+308 silly addNameRange     '0.11.0-beta27',
+308 silly addNameRange     '0.11.0-beta28',
+308 silly addNameRange     '0.11.0-beta29',
+308 silly addNameRange     '0.11.0',
+308 silly addNameRange     '0.11.1',
+308 silly addNameRange     '0.11.2',
+308 silly addNameRange     '0.11.3',
+308 silly addNameRange     '0.11.4',
+308 silly addNameRange     '0.11.5',
+308 silly addNameRange     '0.11.6',
+308 silly addNameRange     '0.11.7',
+308 silly addNameRange     '0.11.8',
+308 silly addNameRange     '0.11.9',
+308 silly addNameRange     '0.11.10',
+308 silly addNameRange     '0.11.11',
+308 silly addNameRange     '0.11.12',
+308 silly addNameRange     '0.11.13',
+308 silly addNameRange     '0.11.14',
+308 silly addNameRange     '0.11.15',
+308 silly addNameRange     '1.0.0-beta1',
+308 silly addNameRange     '1.0.0-beta2',
+308 silly addNameRange     '1.0.0-beta3',
+308 silly addNameRange     '1.0.0-beta4',
+308 silly addNameRange     '0.11.16',
+308 silly addNameRange     '0.11.17',
+308 silly addNameRange     '0.11.18',
+308 silly addNameRange     '1.0.0-beta5',
+308 silly addNameRange     '1.0.0-beta6',
+308 silly addNameRange     '1.0.0-beta7',
+308 silly addNameRange     '1.0.0-beta8',
+308 silly addNameRange     '1.0.0-beta9',
+308 silly addNameRange     '1.0.0-rc1',
+308 silly addNameRange     '1.0.0-rc2',
+308 silly addNameRange     '1.0.0-rc3',
+308 silly addNameRange     '1.0.0-rc4',
+308 silly addNameRange     '1.0.0-rc5',
+308 silly addNameRange     '1.0.0-rc7',
+308 silly addNameRange     '1.0.0-rc8',
+308 silly addNameRange     '1.0.0-rc9',
+308 silly addNameRange     '1.0.0-rc11',
+308 silly addNameRange     '1.0.0-rc12',
+308 silly addNameRange     '1.0.0',
+308 silly addNameRange     '1.0.1',
+308 silly addNameRange     '1.0.3',
+308 silly addNameRange     '1.0.4',
+308 silly addNameRange     '1.0.5',
+308 silly addNameRange     '1.1.0-beta1',
+308 silly addNameRange     '1.1.0-beta2',
+308 silly addNameRange     '1.1.0-beta3',
+308 silly addNameRange     '1.1.0-beta4',
+308 silly addNameRange     '1.1.0-beta5',
+308 silly addNameRange     '1.1.0-beta6',
+308 silly addNameRange     '1.1.0-beta7',
+308 silly addNameRange     '1.1.0-beta8',
+308 silly addNameRange     '1.1.0-beta9',
+308 silly addNameRange     '1.1.0-beta10',
+308 silly addNameRange     '1.1.0-beta12',
+308 silly addNameRange     '1.1.0',
+308 silly addNameRange     '1.1.1',
+308 silly addNameRange     '1.1.2',
+308 silly addNameRange     '1.1.3',
+308 silly addNameRange     '1.1.4',
+308 silly addNameRange     '1.1.5',
+308 silly addNameRange     '1.1.6',
+308 silly addNameRange     '1.1.7',
+308 silly addNameRange     '1.1.8',
+308 silly addNameRange     '1.1.9',
+308 silly addNameRange     '1.1.10',
+308 silly addNameRange     '1.1.11',
+308 silly addNameRange     '1.2.0-beta1',
+308 silly addNameRange     '1.2.0-beta2',
+308 silly addNameRange     '1.2.0-beta4',
+308 silly addNameRange     '1.2.0-beta5',
+308 silly addNameRange     '1.2.0-beta6',
+308 silly addNameRange     '1.3.0-beta1',
+308 silly addNameRange     '1.3.0-beta2',
+308 silly addNameRange     '1.3.0-beta3',
+308 silly addNameRange     '1.3.0-beta4',
+308 silly addNameRange     '1.3.0-beta5',
+308 silly addNameRange     '1.3.0-beta6',
+308 silly addNameRange     '1.3.0-beta7',
+308 silly addNameRange     '1.3.0-beta8',
+308 silly addNameRange     '1.3.0-beta9',
+308 silly addNameRange     '1.3.1-beta1',
+308 silly addNameRange     '1.3.1-beta2',
+308 silly addNameRange     '1.3.1-beta3',
+308 silly addNameRange     '1.3.1-beta4',
+308 silly addNameRange     '1.3.1-beta5',
+308 silly addNameRange     '1.3.1-beta6',
+308 silly addNameRange     '1.3.1-beta7',
+308 silly addNameRange     '1.3.1-beta8',
+308 silly addNameRange     '1.3.1-beta9',
+308 silly addNameRange     '1.3.2-beta1',
+308 silly addNameRange     '1.3.2-beta2',
+308 silly addNameRange     '1.3.2-beta3',
+308 silly addNameRange     '1.3.2-beta4',
+308 silly addNameRange     '1.3.2-beta5',
+308 silly addNameRange     '1.3.2-beta6',
+308 silly addNameRange     '1.3.2-beta7',
+308 silly addNameRange     '1.3.2-beta8',
+308 silly addNameRange     '1.3.2-beta9',
+308 silly addNameRange     '1.3.3-beta1',
+308 silly addNameRange     '1.3.3-beta2',
+308 silly addNameRange     '1.3.4',
+308 silly addNameRange     '1.3.5',
+308 silly addNameRange     '1.3.6',
+308 silly addNameRange     '1.3.7',
+308 silly addNameRange     '1.4.0-beta1',
+308 silly addNameRange     '1.4.0-beta2',
+308 silly addNameRange     '1.4.0-beta3',
+308 silly addNameRange     '1.4.0-beta4',
+308 silly addNameRange     '1.4.0-beta5',
+308 silly addNameRange     '1.4.0-beta6',
+308 silly addNameRange     '1.4.0-beta7',
+308 silly addNameRange     '1.4.0-beta8',
+308 silly addNameRange     '1.4.0-beta9',
+308 silly addNameRange     '1.4.0-beta10',
+308 silly addNameRange     '1.4.1-beta1',
+308 silly addNameRange     '1.4.2',
+308 silly addNameRange     '1.4.3',
+308 silly addNameRange     '1.4.4',
+308 silly addNameRange     '1.4.5',
+308 silly addNameRange     '1.4.6',
+308 silly addNameRange     '1.4.7',
+308 silly addNameRange     '1.4.8',
+308 silly addNameRange     '1.4.9',
+308 silly addNameRange     '1.4.10',
+308 silly addNameRange     '1.4.11',
+308 silly addNameRange     '1.4.12',
+308 silly addNameRange     '1.4.13',
+308 silly addNameRange     '1.4.14',
+308 silly addNameRange     '1.4.15',
+308 silly addNameRange     '1.5.0',
+308 silly addNameRange     '1.5.1',
+308 silly addNameRange     '1.5.2',
+308 silly addNameRange     '1.5.3',
+308 silly addNameRange     '1.6.0',
+308 silly addNameRange     '1.7.0',
+308 silly addNameRange     '1.7.1',
+308 silly addNameRange     '1.7.2',
+308 silly addNameRange     '1.7.3',
+308 silly addNameRange     '1.8.0',
+308 silly addNameRange     '1.8.1',
+308 silly addNameRange     '1.8.2',
+308 silly addNameRange     '1.8.3',
+308 silly addNameRange     '1.8.4',
+308 silly addNameRange     '1.8.5',
+308 silly addNameRange     '1.8.6',
+308 silly addNameRange     '1.8.7',
+308 silly addNameRange     '1.8.8',
+308 silly addNameRange     '1.8.9',
+308 silly addNameRange     '1.8.10',
+308 silly addNameRange     '1.8.11',
+308 silly addNameRange     '1.9.0',
+308 silly addNameRange     '1.9.1',
+308 silly addNameRange     '1.9.2',
+308 silly addNameRange     '1.9.3',
+308 silly addNameRange     '1.9.4',
+308 silly addNameRange     '1.9.5',
+308 silly addNameRange     '1.9.6',
+308 silly addNameRange     '1.9.7',
+308 silly addNameRange     '1.9.8',
+308 silly addNameRange     '1.9.9',
+308 silly addNameRange     '1.9.10',
+308 silly addNameRange     '1.9.11',
+308 silly addNameRange     '1.9.12',
+308 silly addNameRange     '1.9.13',
+308 silly addNameRange     '1.10.0',
+308 silly addNameRange     '1.10.1',
+308 silly addNameRange     '1.10.2',
+308 silly addNameRange     '1.10.3',
+308 silly addNameRange     '1.10.4',
+308 silly addNameRange     '1.10.5',
+308 silly addNameRange     '1.11.0',
+308 silly addNameRange     '1.12.0' ] ]
+309 verbose addNamed [ 'webpack', '1.12.0' ]
+310 verbose addNamed [ '1.12.0', '1.12.0' ]
+311 silly lockFile 348163bc-webpack-1-12-0 webpack@1.12.0
+312 verbose lock webpack@1.12.0 /Users/ryanyogan/.npm/348163bc-webpack-1-12-0.lock
+313 silly lockFile e80898df-s-org-webpack-webpack-1-12-0-tgz https://registry.npmjs.org/webpack/-/webpack-1.12.0.tgz
+314 verbose lock https://registry.npmjs.org/webpack/-/webpack-1.12.0.tgz /Users/ryanyogan/.npm/e80898df-s-org-webpack-webpack-1-12-0-tgz.lock
+315 verbose addRemoteTarball [ 'https://registry.npmjs.org/webpack/-/webpack-1.12.0.tgz',
+315 verbose addRemoteTarball   '028ac4670535cb1a83815c4726b56353d02cbb38' ]
+316 info retry fetch attempt 1 at 11:40:59
+317 verbose fetch to= /var/folders/5x/d88xtrm50rx79vglpyj703180000gn/T/npm-77937-fkn__dcC/registry.npmjs.org/webpack/-/webpack-1.12.0.tgz
+318 http GET https://registry.npmjs.org/webpack/-/webpack-1.12.0.tgz
+319 http 200 https://registry.npmjs.org/webpack/-/webpack-1.12.0.tgz
+320 silly lockFile e80898df-s-org-webpack-webpack-1-12-0-tgz https://registry.npmjs.org/webpack/-/webpack-1.12.0.tgz
+321 silly lockFile e80898df-s-org-webpack-webpack-1-12-0-tgz https://registry.npmjs.org/webpack/-/webpack-1.12.0.tgz
+322 silly lockFile 348163bc-webpack-1-12-0 webpack@1.12.0
+323 silly lockFile 348163bc-webpack-1-12-0 webpack@1.12.0
+324 silly lockFile 9c8dd08b-webpack webpack@
+325 silly lockFile 9c8dd08b-webpack webpack@
+326 error Error: EACCES, mkdir '/Users/ryanyogan/.npm/eslint-plugin-react/3.3.0'
+326 error  { [Error: EACCES, mkdir '/Users/ryanyogan/.npm/eslint-plugin-react/3.3.0']
+326 error   errno: 3,
+326 error   code: 'EACCES',
+326 error   path: '/Users/ryanyogan/.npm/eslint-plugin-react/3.3.0',
+326 error   parent: 'redux-todo' }
+327 error Please try running this command again as root/Administrator.
+328 error System Darwin 14.4.0
+329 error command "node" "/usr/local/bin/npm" "i" "--save-dev" "babel" "babel-eslint" "babel-loader" "eslint" "eslint-plugin-react" "react-hot-loader" "webpack" "webpack-dev-server"
+330 error cwd /Users/ryanyogan/dev/redux-todo
+331 error node -v v0.10.35
+332 error npm -v 1.4.28
+333 error path /Users/ryanyogan/.npm/eslint-plugin-react/3.3.0
+334 error code EACCES
+335 error errno 3
+336 error stack Error: EACCES, mkdir '/Users/ryanyogan/.npm/eslint-plugin-react/3.3.0'
+337 verbose exit [ 3, true ]

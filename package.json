@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/ryanyogan/redux-todo/issues"
   },
-  "homepage": "https://github.com/ryanyogan/redux-todo"
+  "homepage": "https://github.com/ryanyogan/redux-todo",
+  "dependencies": {
+    "axios": "^0.5.4",
+    "express": "^4.13.3",
+    "immutable": "^3.7.4",
+    "object-assign": "^4.0.1",
+    "react": "^0.13.3",
+    "react-redux": "^1.0.1",
+    "react-router": "^0.13.3",
+    "redux": "^1.0.1"
+  }
 }
